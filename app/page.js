@@ -1,5 +1,6 @@
 'use client';
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react"
 import { useState, useEffect } from "react";
 import { firestore } from "@/firebase";
 import { Box, Modal, Stack, TextField, Typography, Button }from "@mui/material";
